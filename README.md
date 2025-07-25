@@ -1,44 +1,49 @@
-# 💼 FreelancePlatform
+# 🚀 FreelancePlatform
 
-Bu proje, freelance çalışanlarla işverenleri buluşturan bir web uygulamasıdır. ASP.NET Core MVC teknolojisi kullanılarak geliştirilmiştir.
-
-## 🎯 Amaç
-
-Freelancer'ların proje alabileceği, işverenlerin ilan yayınlayabileceği, kullanıcıların birbirleriyle mesajlaşabileceği ve iş süreçlerini yönetebileceği bir platform oluşturmak.
+**FreelancePlatform**, freelancerlar ile işverenlerin güvenli bir şekilde buluşmasını sağlayan modern, kullanıcı dostu ve ölçeklenebilir bir **ASP.NET MVC** web uygulamasıdır.  
+Firebase Authentication ile güçlü kimlik doğrulama, Cloud Firestore ile gerçek zamanlı veri yönetimi sağlar.
 
 ---
 
-## ⚙️ Kullanılan Teknolojiler
+## ✨ Temel Özellikler
 
-- ASP.NET Core MVC
-- Entity Framework Core
-- C#
-- SQL Server
-- Razor View Engine
-- LINQ
-- Bootstrap (Frontend)
-- RESTful API yapısı
+- 🔐 **Güçlü Kullanıcı Kimlik Doğrulama**  
+  Firebase Authentication sayesinde e-posta ve şifre ile güvenli giriş ve kayıt işlemleri.
 
----
+- 👤 **Kullanıcı Profili Yönetimi**  
+  Kullanıcılar; kişisel bilgilerini güncelleyebilir, profil resmi ekleyip değiştirebilir.
 
-## 📁 Proje Yapısı
+- 📋 **Projeler ve İş İlanları Yönetimi**  
+  Freelancerlar ve işverenler için proje oluşturma, listeleme, detay görüntüleme ve başvuru süreçleri.
 
-- `Controllers/` – MVC controller dosyaları
-- `Models/` – Entity ve ViewModel sınıfları
-- `Views/` – Razor sayfaları (UI)
-- `wwwroot/` – Statik dosyalar (CSS, JS, görseller vs.)
-- `Program.cs` – Uygulamanın giriş noktası
-- `appsettings.json` – Konfigürasyon dosyaları
-- `FreelancePlatform.csproj` – Proje yapılandırması
+- ☁️ **Gerçek Zamanlı Veri Senkronizasyonu**  
+  Cloud Firestore ile uygulama verileri anlık olarak güncellenir ve tüm kullanıcılar senkronize kalır.
+
+- 📦 **Firebase Storage Entegrasyonu**  
+  Kullanıcı dosyaları ve projelere ait dokümanlar güvenli bir şekilde saklanır ve yönetilir.
+
+- ⚙️ **Katmanlı ASP.NET MVC Mimarisi**  
+  Modüler, sürdürülebilir ve genişletilebilir bir yapı ile geliştirilmiştir.
 
 ---
 
-## 🚀 Özellikler
+## 🔍 Detaylar
 
-- 👤 Kullanıcı kayıt ve giriş işlemleri (Login/Register)
-- 📝 Proje/iş ilanı yayınlama
-- 💼 Freelancer başvuru sistemi
-- 💬 Kullanıcılar arası mesajlaşma modülü
-- 📊 Panel üzerinden yönetim
-- 🔒 Rol bazlı yetkilendirme
+- **Kimlik Doğrulama:**  
+  Firebase Authentication altyapısı ile e-posta/şifre, sosyal giriş veya özel sağlayıcı entegrasyonları desteklenebilir.
 
+- **Veritabanı:**  
+  Cloud Firestore kullanılarak kullanıcı bilgileri, projeler ve mesajlar dinamik ve ölçeklenebilir şekilde depolanır.
+
+- **Veri Güvenliği:**  
+  Firestore ve Storage erişimleri, Firebase güvenlik kuralları ile korunmakta; sadece yetkili kullanıcılar erişim sağlayabilmektedir.
+
+- **Performans:**  
+  Gerçek zamanlı güncellemeler ve istemci tarafı optimizasyonlarla hızlı ve akıcı kullanıcı deneyimi sunar.
+
+- **Esneklik:**  
+  Proje gereksinimlerine göre kolayca yeni modüller eklenebilir ve mevcut işlevler genişletilebilir.
+
+---
+
+Bu yapı ile FreelancePlatform, freelancer ve işverenlerin ihtiyaçlarını karşılayacak güvenilir ve ölçeklenebilir bir çözüm sunmayı hedeflemektedir.
